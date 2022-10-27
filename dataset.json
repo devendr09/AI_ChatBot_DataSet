@@ -14,11 +14,36 @@
     {
         "tags" : "courses",
         "patterns" : ["courses offered", "offered courses", "courses offered in institute", "offered courses in institute", "courses offered in campus", "offered courses  in campus", "courses offered in campus", "offered courses  in campus"],
-        "responses" : ["Bachelor in Technology in CSE (Computer Science & Engineering), ECE (Electronics & Communication Engineering), ME (Mechnical Engineering), SM (Smart Manufacturing). Bachelor in Design."]
+        "responses" : ["Bachelor in Technology in CSE (Computer Science & Engineering), ECE (Electronics & Communication Engineering), ME (Mechnical Engineering), SM (Smart Manufacturing). Bachelor in Design , Master in Technology, Master in Design, PhD (Doctor of Philosophy), Intergrated Master + PhD"]
     }
     ,
     {
-        "tags" : "",
+        "tags" : "courseDuration",
+        "patterns" : ["Duration of bachelor course", "how long will be bachelor courses", "how many years at bachelor course", "bachelor course duration"],
+        "responses" : ["Bachelors : 4 years , Masters : 2 years"]
+    }
+    ,{
+        "tag" : "departments",
+        "patterns" : ["how many departments are present", "departments", "show departments", "different deparatments available", "different deparatments present"],
+        "responses" : ["Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), Design (Des), Mechanical Engineering (ME), Natural Sciences (NS), Liberal Arts (LA)"] 
+    }
+    ,{
+        "tag" : "feeStructure",
+        "patterns" : ["What is the fee structure", "Fee details", "semester fee", "course fee", "full fee details", "tuition fee", "hostel fee", "Fee insights", "structure of fee", "money paid to college"],
+        "responses" : ["Visit here to know more : https://www.iiitdmj.ac.in/academics/admission/fee_structure.php"]
+    }
+    ,{
+        "tag" : "",
+        "patterns" : [],
+        "responses" : []
+    }
+    ,{
+        "tag" : "",
+        "patterns" : [],
+        "responses" : []
+    }
+    ,{
+        "tag" : "",
         "patterns" : [],
         "responses" : []
     }
