@@ -96,24 +96,6 @@
     ]
   },
   {
-<<<<<<< HEAD
-=======
-    "tag": "",
-    "patterns": [],
-    "responses": []
-  },
-  {
-    "tag": "",
-    "patterns": [],
-    "responses": []
-  },
-  {
-    "tag": "",
-    "patterns": [],
-    "responses": []
-  },
-  {
->>>>>>> 5c6d2955d9b3f0e02defe54a94b742fca6d7d6ab
     "tag": "hostels",
     "patterns": [
       "hostel",
@@ -169,7 +151,6 @@
     "responses": [
       "To get the information of all the academic and administrative people of IIITDMJ visit here: https://www.iiitdmj.ac.in/administration/administration.php"
     ]
-<<<<<<< HEAD
   },
   {
     "tag": "placement",
@@ -265,7 +246,5 @@
       "Thanks for helping me"
     ],
     "responses": ["Happy to help!", "Any time!", "My pleasure"]
-=======
->>>>>>> 5c6d2955d9b3f0e02defe54a94b742fca6d7d6ab
   }
 ]
