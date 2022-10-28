@@ -137,5 +137,34 @@
     "responses": [
       "Visit here to check the academic calendar: https://www.iiitdmj.ac.in/academics/calendar.php"
     ]
+  },
+  {
+    "tag": "faculty",
+    "patterns": [
+      "faculty",
+      "professors",
+      "professors of iiitdmj",
+      "faculty of college",
+      "faculty of iiitdmj",
+      "professors of college"
+    ],
+    "responses": [
+      "You can view information about the faculty of IIITDMJ here: http://faculty.iiitdmj.ac.in/faculty"
+    ]
+  },
+  {
+    "tag": "deans",
+    "patterns": [
+      "administration",
+      "deans",
+      "deans of iiitdmj",
+      "academic office information",
+      "deans of iiitdmj",
+      "deans of college",
+      "academic people of college"
+    ],
+    "responses": [
+      "To get the information of all the academic and administrative people of IIITDMJ visit here: https://www.iiitdmj.ac.in/administration/administration.php"
+    ]
   }
 ]
