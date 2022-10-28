@@ -1,51 +1,170 @@
-
 [
-    {
-        "tag": "institute name",
-        "patterns": ["name of the college", "name of college", "college name", "the name of college", "name of the institute", "name of institute", "institute name", "of the institute name", "the name of institute"],
-        "responses": ["Pandit Dwarka Prasad Mishra Indian Institute of Information Technology, Design and Manufacturing, Jabalpur"]
-    },
-    {
-        "tag": "location",
-        "patterns" : ["pincode of institute", "district of college", "pincode of college", "district of institute", "of institute district", "address of institute", "institute address", "institute of address", "location of institute", "institute location", "location of college", "college location", "address of institute", "institute address"],
-        "responses" : ["52GG+H4G, Airport Rd, PDPM IIITDM Jabalpur Campus, Khamaria, Jabalpur, Madhya Pradesh 482005"]
-    }
-    ,
-    {
-        "tags" : "courses",
-        "patterns" : ["courses offered", "offered courses", "courses offered in institute", "offered courses in institute", "courses offered in campus", "offered courses  in campus", "courses offered in campus", "offered courses  in campus"],
-        "responses" : ["Bachelor in Technology in CSE (Computer Science & Engineering), ECE (Electronics & Communication Engineering), ME (Mechnical Engineering), SM (Smart Manufacturing). Bachelor in Design , Master in Technology, Master in Design, PhD (Doctor of Philosophy), Intergrated Master + PhD"]
-    }
-    ,
-    {
-        "tags" : "courseDuration",
-        "patterns" : ["Duration of bachelor course", "how long will be bachelor courses", "how many years at bachelor course", "bachelor course duration"],
-        "responses" : ["Bachelors : 4 years , Masters : 2 years"]
-    }
-    ,{
-        "tag" : "departments",
-        "patterns" : ["how many departments are present", "departments", "show departments", "different deparatments available", "different deparatments present"],
-        "responses" : ["Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), Design (Des), Mechanical Engineering (ME), Natural Sciences (NS), Liberal Arts (LA)"] 
-    }
-    ,{
-        "tag" : "feeStructure",
-        "patterns" : ["What is the fee structure", "Fee details", "semester fee", "course fee", "full fee details", "tuition fee", "hostel fee", "Fee insights", "structure of fee", "money paid to college"],
-        "responses" : ["Visit here to know more : https://www.iiitdmj.ac.in/academics/admission/fee_structure.php"]
-    }
-    ,{
-        "tag" : "",
-        "patterns" : [],
-        "responses" : []
-    }
-    ,{
-        "tag" : "",
-        "patterns" : [],
-        "responses" : []
-    }
-    ,{
-        "tag" : "",
-        "patterns" : [],
-        "responses" : []
-    }
-
+  {
+    "tag": "institute name",
+    "patterns": [
+      "name of the college",
+      "name of college",
+      "college name",
+      "the name of college",
+      "name of the institute",
+      "name of institute",
+      "institute name",
+      "of the institute name",
+      "the name of institute"
+    ],
+    "responses": [
+      "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology, Design and Manufacturing, Jabalpur"
+    ]
+  },
+  {
+    "tag": "location",
+    "patterns": [
+      "pincode of institute",
+      "district of college",
+      "pincode of college",
+      "district of institute",
+      "of institute district",
+      "address of institute",
+      "institute address",
+      "institute of address",
+      "location of institute",
+      "institute location",
+      "location of college",
+      "college location",
+      "address of institute",
+      "institute address"
+    ],
+    "responses": [
+      "52GG+H4G, Airport Rd, PDPM IIITDM Jabalpur Campus, Khamaria, Jabalpur, Madhya Pradesh 482005"
+    ]
+  },
+  {
+    "tags": "courses",
+    "patterns": [
+      "courses offered",
+      "offered courses",
+      "courses offered in institute",
+      "offered courses in institute",
+      "courses offered in campus",
+      "offered courses  in campus",
+      "courses offered in campus",
+      "offered courses  in campus"
+    ],
+    "responses": [
+      "Bachelor in Technology in CSE (Computer Science & Engineering), ECE (Electronics & Communication Engineering), ME (Mechnical Engineering), SM (Smart Manufacturing). Bachelor in Design , Master in Technology, Master in Design, PhD (Doctor of Philosophy), Intergrated Master + PhD"
+    ]
+  },
+  {
+    "tags": "courseDuration",
+    "patterns": [
+      "Duration of bachelor course",
+      "how long will be bachelor courses",
+      "how many years at bachelor course",
+      "bachelor course duration"
+    ],
+    "responses": ["Bachelors : 4 years , Masters : 2 years"]
+  },
+  {
+    "tag": "departments",
+    "patterns": [
+      "how many departments are present",
+      "departments",
+      "show departments",
+      "different deparatments available",
+      "different deparatments present"
+    ],
+    "responses": [
+      "Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), Design (Des), Mechanical Engineering (ME), Natural Sciences (NS), Liberal Arts (LA)"
+    ]
+  },
+  {
+    "tag": "feeStructure",
+    "patterns": [
+      "What is the fee structure",
+      "Fee details",
+      "semester fee",
+      "course fee",
+      "full fee details",
+      "tuition fee",
+      "hostel fee",
+      "Fee insights",
+      "structure of fee",
+      "money paid to college"
+    ],
+    "responses": [
+      "Visit here to know more : https://www.iiitdmj.ac.in/academics/admission/fee_structure.php"
+    ]
+  },
+  {
+    "tag": "",
+    "patterns": [],
+    "responses": []
+  },
+  {
+    "tag": "",
+    "patterns": [],
+    "responses": []
+  },
+  {
+    "tag": "",
+    "patterns": [],
+    "responses": []
+  },
+  {
+    "tag": "hostels",
+    "patterns": [
+      "hostel",
+      "hall of residence",
+      "how many hostels",
+      "boys hostel",
+      "girls hostel",
+      "hostel facility",
+      "hostels of iiitdmj"
+    ],
+    "responses": [
+      "IIITDMJ have 3 boys hostel for BTech students, 1 girls hostel, 1 boys hostel for Mtech students, and 1 family hostel for Phd students with family"
+    ]
+  },
+  {
+    "tag": "calendar",
+    "patterns": [
+      "academic calendar",
+      "holidays",
+      "closed holidays",
+      "calendar",
+      "college calendar"
+    ],
+    "responses": [
+      "Visit here to check the academic calendar: https://www.iiitdmj.ac.in/academics/calendar.php"
+    ]
+  },
+  {
+    "tag": "faculty",
+    "patterns": [
+      "faculty",
+      "professors",
+      "professors of iiitdmj",
+      "faculty of college",
+      "faculty of iiitdmj",
+      "professors of college"
+    ],
+    "responses": [
+      "You can view information about the faculty of IIITDMJ here: http://faculty.iiitdmj.ac.in/faculty"
+    ]
+  },
+  {
+    "tag": "deans",
+    "patterns": [
+      "administration",
+      "deans",
+      "deans of iiitdmj",
+      "academic office information",
+      "deans of iiitdmj",
+      "deans of college",
+      "academic people of college"
+    ],
+    "responses": [
+      "To get the information of all the academic and administrative people of IIITDMJ visit here: https://www.iiitdmj.ac.in/administration/administration.php"
+    ]
+  }
 ]
